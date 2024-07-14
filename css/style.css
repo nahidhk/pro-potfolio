@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 
 /* ? system of Nav code no 11 - 27 */
@@ -41,29 +42,34 @@ body {
 }
 
 .style-box {
-   display: inline;
-   margin: 10px;
-   margin-left: 30px;
-   font-size: 21px;
-   cursor: pointer;
-   padding: 5px;
-   padding-left: 8px;
-   padding-right: 8px;
-   box-shadow: 0 0 200px 0 #000;
-   transition:all 0.6s ;
-   -webkit-transition:all 0.6s ;
-   -moz-transition:all 0.6s ;
-   -ms-transition:all 0.6s ;
-   -o-transition:all 0.6s ;
+    display: inline;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: 0 0 500px 0 #000;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
 }
 
 .style-box:hover {
- background-color: black;
- color: #fff;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
- -ms-border-radius: 100px;
- -o-border-radius: 100px;
- box-shadow: 0 0 1px 0 #000;
+    background-color: #4680ff;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 0 0 1px 0 #000;
+}
+.main{
+    height: auto;
+    width: 100%;
+    background-color: red;
 }
