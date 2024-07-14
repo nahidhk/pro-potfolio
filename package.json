@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
