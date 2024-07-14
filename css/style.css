@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ? system of Nav code no 11 - 27 */
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff78;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+
+.nav .img-box {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 50px;
+}
+
+.nav .img-box img {
+    height: 100%;
+    width: 100%;
+}
+
+/* list style */
+
+.list-box {
+    position: absolute;
+    right: 40px;
+
+}
+
+.style {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+.style-box {
+   display: inline;
+   margin: 10px;
+   margin-left: 30px;
+   font-size: 21px;
+   cursor: pointer;
+   padding: 5px;
+   padding-left: 8px;
+   padding-right: 8px;
+   box-shadow: 0 0 200px 0 #000;
+   transition:all 0.6s ;
+   -webkit-transition:all 0.6s ;
+   -moz-transition:all 0.6s ;
+   -ms-transition:all 0.6s ;
+   -o-transition:all 0.6s ;
+}
+
+.style-box:hover {
+ background-color: black;
+ color: #fff;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ -ms-border-radius: 100px;
+ -o-border-radius: 100px;
+ box-shadow: 0 0 1px 0 #000;
+}
