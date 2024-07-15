@@ -5,7 +5,8 @@ body {
 }
 
 /* ? system of Nav code no 11 - 27 */
-.nav {
+.nav{
+    z-index: 1000;
     height: 70px;
     width: 100%;
     background-color: #ffffff78;
@@ -197,6 +198,34 @@ body {
     z-index: 100;
 }
 .abopth{
-    background-image: cover;
-    
+    background-size: 100% 300px;
+    background-image: url("/img/web-bg.png");
+    background-repeat: no-repeat;
+    background-color: #0F110C;
+}
+.wt{
+    color: #e6e6ae;
+}
+.blur{
+    backdrop-filter: blur(100px);
+    width: 100%;
+}
+.pdngtop{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.icon{
+    color: #fff;
+    font-size: 36px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.icon:hover{
+    color: #4680ff;
+    font-size: 38px;
 }
