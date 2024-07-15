@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1",
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap-icons": "^1.11.3",
+    "svg-to-ts": "^12.0.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.4"

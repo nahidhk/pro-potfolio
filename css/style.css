@@ -68,8 +68,135 @@ body {
     -o-border-radius: 100px;
     box-shadow: 0 0 1px 0 #000;
 }
-.main{
+
+.main {
     height: auto;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.home {
+    /* 
+    background-color: yellow; */
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hombox1 {
+    width: 55%;
+    /* background-color: pink; */
+
+}
+
+.hombox2 {
+    width: 40%;
+    /* background-color: green; */
+}
+
+.subtitle {
+    color: var(--1451-b-3, #1451B3);
+
+    /* UI/body2 */
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 91.667% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: var(--2-d-2-d-2-d, #2D2D2D);
+    margin: 0;
+    /* UI/Title */
+    font-family: monospace;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 100% */
+}
+
+.color {
+    color: var(--4680-ff, #4680FF);
+
+    /* UI/Title */
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.text {
+    color: #21243D;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.btn {
+    cursor: pointer;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: monospace;
+    color: #4680ff;
+    border: 1px solid #4680ff;
+    background-color: #8d262600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.active {
+    background-color: #4680ff;
+    color: #fff;
+}
+
+.img-box {
+    height: 540px;
+    flex-shrink: 0;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.skill-box {
+    flex-shrink: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.skill {
+    display: flex;
+    height: 70px;
+    padding: 4px 30px 4px 32px;
+    align-items: center;
+   text-transform: uppercase;
+    border-radius: 10px;
+    background: var(--2-d-2-d-2-d, #2D2D2D);
+    font-size: 24px;
+    color: #fff;
+}
+.marquee{ 
+    box-shadow: 0 0 500px 0 rgb(255, 255, 255) inset;
+    z-index: 100;
+}
+.abopth{
+    background-image: cover;
+    
 }
