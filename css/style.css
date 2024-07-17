@@ -5,7 +5,7 @@ body {
 }
 
 /* ? system of Nav code no 11 - 27 */
-.nav{
+.nav {
     z-index: 1000;
     height: 70px;
     width: 100%;
@@ -51,7 +51,7 @@ body {
     padding: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    box-shadow: 0 0 500px 0 #000;
+    /* box-shadow: 0 0 500px 0 #000; */
     transition: all 0.6s;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -187,33 +187,39 @@ body {
     height: 70px;
     padding: 4px 30px 4px 32px;
     align-items: center;
-   text-transform: uppercase;
+    text-transform: uppercase;
     border-radius: 10px;
     background: var(--2-d-2-d-2-d, #2D2D2D);
     font-size: 24px;
     color: #fff;
 }
-.marquee{ 
+
+.marquee {
     z-index: 1;
 }
-.abopth{
+
+.abopth {
     background-size: 100% 300px;
     background-image: url("/img/web-bg.png");
     background-repeat: no-repeat;
     background-color: #0F110C;
 }
-.wt{
+
+.wt {
     color: #e6e6ae;
 }
-.blur{
+
+.blur {
     backdrop-filter: blur(100px);
     width: 100%;
 }
-.pdngtop{
+
+.pdngtop {
     padding-top: 60px;
     padding-bottom: 70px;
 }
-.icon{
+
+.icon {
     color: #fff;
     font-size: 36px;
     margin: 10px;
@@ -224,16 +230,20 @@ body {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
-.icon:hover{
+
+.icon:hover {
     color: #4680ff;
 }
-.abonet{
-    background-color: #0F110C; 
+
+.abonet {
+    background-color: #0F110C;
 }
-.htitle{
+
+.htitle {
     padding-left: 100px;
 }
-.projict{
+
+.projict {
     display: flex;
     justify-content: space-around;
     color: #fff;
@@ -247,12 +257,71 @@ body {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     cursor: pointer;
-    transition:all 0.3s ;
-    -webkit-transition:all 0.3s ;
-    -moz-transition:all 0.3s ;
-    -ms-transition:all 0.3s ;
-    -o-transition:all 0.3s ;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
-.projict:hover{
+
+.projict:hover {
     background-color: red;
+    border: none;
+}
+.cont{
+    padding: 20px;
+}
+.marzo{
+    font-size: 40px;
+    padding-left: 30px;
+}
+label{
+    font-size: 20px;
+
+}
+n{
+    color: red;
+}
+.input , label{
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+}
+.input{
+    border: 1px solid #4680ff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #1451B3;
+    padding: 10px;
+    font-family: monospace;
+    outline-color: #00ff1e;
+}
+.mas{
+    height: 160px;
+}
+.pdng{
+    margin: 20px;
+    width: 80%;
+}
+.btn{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.btn:hover{
+background-color: #4680FF;
+color: #fff;
+}
+.img-sm{
+    height: 480px;
+    flex-shrink: 0;
+}
+.img-sm img{
+    height: 80%;
+    width: 80%;
 }
