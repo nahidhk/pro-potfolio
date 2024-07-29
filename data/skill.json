@@ -1,0 +1,14 @@
+[
+    {
+        "skill":"html",
+        "icon":"<i class='fa-brands fa-html5'></i>"
+    },
+    {
+        "skill":"css",
+        "icon":"<i class='fa-brands fa-css3'></i>"
+    },
+    {
+        "skill":"javascript",
+        "icon":"<i class='fa-brands fa-js'></i>"
+    }
+]

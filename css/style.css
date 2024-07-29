@@ -325,3 +325,22 @@ color: #fff;
     height: 80%;
     width: 80%;
 }
+.padding{
+    padding: 25px;
+}
+ul{
+    list-style-type: none;
+
+}
+.abnt{
+    padding: 5px;
+    font-size: 20px;
+ 
+}
+.abnt a:hover{
+    background-color: red;
+    cursor: pointer;
+    padding: 5px;
+    transform: skewY(20deg);
+
+}
