@@ -44,3 +44,34 @@ function openInNewTab(url) {
 document.addEventListener('DOMContentLoaded', (event) => {
     displayData();
 });
+function openmenu() {
+    document.getElementById("list").style.display = "block";
+}
+
+const homeElement = document.getElementById('chome');
+const aboutElement = document.getElementById('cabout');
+const projectElement = document.getElementById('cproject');
+const contElement = document.getElementById('ccontact');
+const cvElement = document.getElementById('ccv');
+
+homeElement.addEventListener('click', function () {
+    window.location.href = "#";
+});
+aboutElement.addEventListener('click', function () {
+    window.location.href = "#about";
+});
+projectElement.addEventListener('click', function () {
+    window.location.href = "#project";
+});
+contElement.addEventListener('click', function () {
+    window.location.href = "#cont";
+});
+cvElement.addEventListener('click', function () {
+  window.location.href="cv.pdf";
+});
+function cv(){
+    window.location.href="cv.pdf";
+}
+function github(){
+    window.location.href="https://github.com/nahidhk"; 
+}

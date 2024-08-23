@@ -19,13 +19,14 @@
             <div class="img-box">
                 <img src="img/remove.png" alt="Nahid HK Logo">
             </div>
-            <div class="list-box">
+            <div onclick="openmenu()" class="menubtn vcc mcc"><i class="bi bi-list"></i></div>
+            <div id="list" class="list-box">
                 <ul class="style">
-                    <li class="style-box">Home</li>
-                    <li class="style-box">About</li>
-                    <li class="style-box">Projects</li>
-                    <li class="style-box">Contact</li>
-                    <li class="style-box"><i class="bi bi-paperclip"></i>CV</li>
+                    <li class="style-box" id="chome">Home</li>
+                    <li class="style-box" id="cabout">About</li>
+                    <li class="style-box" id="cproject">Projects</li>
+                    <li class="style-box" id="ccontact">Contact</li>
+                    <li class="style-box" id="ccv"><i class="bi bi-paperclip"></i>CV</li>
                 </ul>
             </div>
         </nav>
@@ -44,11 +45,11 @@
                     robust and dynamic web solutions. Proficiency in diverse technologies for complex challenges and
                     innovative solutions in web development.
                 </p>
-                <button class="btn active"><i class="bi bi-paperclip"></i> Download CV</button>&nbsp;&nbsp;
-                <button class="btn">Go to GitHub<i class="bi bi-arrow-up-right"></i> </button>
+                <button onclick="cv()" class="btn active"><i class="bi bi-paperclip"></i> Download CV</button>&nbsp;&nbsp;
+                <button onclick="github()" class="btn">Go to GitHub<i class="bi bi-arrow-up-right"></i> </button>
             </div>
             <div class="hombox2">
-                <div class="img-box"><img src="img/photo.svg" alt="my"></div>
+                <div class="img-box ncv"><img src="img/photo.svg" alt="my"></div>
             </div>
         </div>
     </section>
@@ -128,9 +129,10 @@
             </marquee>
         </div>
     </section>
+    <div id="about"></div>
     <br><br><br> <br><br><br>
     <!-- This A About Section -->
-    <section class="main  abopth" id="about">
+    <section class="main  abopth">
         <div class="main blur">
 
             <div class="home pdngtop">
@@ -160,7 +162,7 @@
                         <span class="icon"><i class="fa-brands fa-twitter"></i></span>
                         <span class="icon"><i class="fa-brands fa-telegram"></i></span>
                     </div>
-
+                    <div id="project"></div>
                     </p>
 
                 </div>
@@ -168,6 +170,7 @@
         </div>
     </section>
     <!-- Projict  -->
+ 
     <section class="main abonet">
         <div class="home">
             <!-- hombox1 -->
@@ -179,15 +182,18 @@
             <div class="hombox2">
                 <div id="data-container"></div>
                 <!-- auto data listead -->
+                <br><br><br>
             </div>
         </div>
         </div>
+    
     </section>
+    <div id="cont"></div>
     <br><br><br><br><br><br><br><br>
 
     <!-- the contauct -->
 
-    <section class="main" id="cont">
+    <section class="main" >
         <div class="home cont">
             <div class="hombox1">
                 <div class="img-sm"><img src="/img/cont.svg" alt="about"></div>
@@ -233,7 +239,7 @@
                     high-quality projects that cater to diverse client requirements.
                 </p>
                 <br><br>
-                <button class="btn active">Hire Me</button>
+                <button onclick="window.location.href='#home'" class="btn active">Hire Me</button>
                 <br><br>
                 <p style="color: #6e6e69;">
                     Nahidhk © 2024 — Copyright
@@ -244,12 +250,11 @@
                     Contacts
                     <br><br>
                     <ul class="text wt">
-                        <li class="abnt"><a>About Me</a></li>
-                        <li class="abnt"><a>Projects</a></li>
-                        <li class="abnt"><a>GitHub</a></li>
-                        <li class="abnt"><a>GitHub</a></li>
+                        <li class="abnt"><a href="#home">About Me</a></li>
+                        <li class="abnt"><a href="#project">Projects</a></li>
+                        <li class="abnt"><a href="https://github.com/nahidhk">GitHub</a></li>
                         <li class="abnt"><a>Contact</a></li>
-                        <li class="abnt"><a>Download CV</a></li>                        
+                        <li class="abnt"><a onclick="cv()">Download CV</a></li>                        
                 </ul>
                 </h1>
             </div>
